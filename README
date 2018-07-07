@@ -10,28 +10,30 @@ step1-first i installed git and configured it using the following commands:
 step2-Creating a local repository-then i created a local repository equivalent to which i have to create a new repository by logging into my github account
 (note:both repositories must have the same name)
 commands used were-
-      git init Mytest  this command  initializes that newly created folder as a git folder.
+      git init Mytest  (this command  initializes that newly created folder as a git folder.)
       cd Mytest      (Change the directory to this newly created folder)
 
 step3-Creating a README file to describe the repository-then i created and added a readme file to the local repository using the command-
-      gedit README
+      Mytest>>  gedit README
 step4-Creating a repository on GitHub by the same name.Once this is created, we can push the contents of the local repository onto the GitHub repository in your profile. But before we can do that we first have to-Connect our local repository to the newly created repository on GitHub using the command:
 
-       git remote add origin https://github.com/user_name/Mytest.git
+      Mytest>> git remote add origin https://github.com/user_name/Mytest.git
        
 where https://github.com/user_name/Mytest.git is the url of the newly created repository on github.
 
 step5-Pulling files from GitHub to our local repository: in order to do this we use the command-
-      git pull origin master.
+     Mytest>> git pull origin master.
                                                      0R
 step5- Pushing files in local repository to GitHub repository-follow the following steps
-       step a)adding files to be pushed:git add README
-       step b)commiting and adding commit message i.e conforming added files to be pushed:
-              Once all the files are added, we can commit it. This means that we have finalized what additions and/or changes have to be made and they are now ready to be uploaded to our repository. Use the command :git commit -m "some_message"
+       step a)adding files to be pushed:Mytest>> git add README or git add -A (adds all the files in your current directory to be pushed)
+       step b)Mytest>> git status(all successfully added files will be shown in green)
+       step c)commiting and adding commit message i.e conforming added files to be pushed:
+              Once all the files are added, we can commit it. This means that we have finalized what additions and/or changes have to be made and they are now ready to be uploaded to our repository.
+              Use the command :Mytest>> git commit -m "some_message"
 
 step6-Pushing files in local repository to GitHub repository:
-      git push origin master
+      Mytest>> git push origin master
       Enter the login credentials [user_name and password] .
 
-
+VVI note: all the commands from step 3 onwards have been executed after setting current directory to the folder Mytest
 
