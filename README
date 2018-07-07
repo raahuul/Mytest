@@ -29,7 +29,8 @@ step5- Pushing files in local repository to GitHub repository-follow the followi
        step b)commiting and adding commit message i.e conforming added files to be pushed:
               Once all the files are added, we can commit it. This means that we have finalized what additions and/or changes have to be made and they are now ready to be uploaded to our repository. Use the command :git commit -m "some_message"
 
-step6-Pushing files in local repository to GitHub repository:git push origin master
+step6-Pushing files in local repository to GitHub repository:
+      git push origin master
       Enter the login credentials [user_name and password] .
 
 
