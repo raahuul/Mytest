@@ -6,11 +6,11 @@ step1-first i installed git and configured it using the following commands:
       sudo apt-get install git
       git config --global user.name "user_name"
       git config --global user.email "email_id"
-
+-----------------------------------------------------------------------------------------------------------------------------------
 step2-Creating a local repository-then i created a local repository equivalent to which i have to create a new repository by logging into my github account
 (note:both repositories must have the same name)
 commands used were-
-      git init Mytest
+      git init Mytest  this command  initializes that newly created folder as a git folder.
       cd Mytest      (Change the directory to this newly created folder)
 
 step3-Creating a README file to describe the repository-then i created and added a readme file to the local repository using the command-
@@ -21,6 +21,9 @@ step4-Creating a repository on GitHub by the same name.Once this is created, we 
        
 where https://github.com/user_name/Mytest.git is the url of the newly created repository on github.
 
+step5-Pulling files from GitHub to our local repository: in order to do this we use the command-
+      git pull origin master.
+                                                     0R
 step5- Pushing files in local repository to GitHub repository-follow the following steps
        step a)adding files to be pushed:git add README
        step b)commiting and adding commit message i.e conforming added files to be pushed:
@@ -29,4 +32,5 @@ step5- Pushing files in local repository to GitHub repository-follow the followi
 step6-Pushing files in local repository to GitHub repository:git push origin master
       Enter the login credentials [user_name and password] .
 
-      
+
+
