@@ -11,8 +11,10 @@ step2-Creating a local repository-then i created a local repository equivalent t
 (note:both repositories must have the same name)
 commands used were-
       git init Mytest  (this command  initializes that newly created folder as a git folder.)
-      cd Mytest      (Change the directory to this newly created folder)
-
+      cd Mytest        (Change the directory to this newly created folder)
+      or 
+      cd Mytest        (Change the directory to this newly created folder)
+      git init Mytest  (this command  initializes that newly created folder as a git folder.)
 step3-Creating a README file to describe the repository-then i created and added a readme file to the local repository using the command-
       Mytest>>  gedit README
 step4-Creating a repository on GitHub by the same name.Once this is created, we can push the contents of the local repository onto the GitHub repository in your profile. But before we can do that we first have to-Connect our local repository to the newly created repository on GitHub using the command:
