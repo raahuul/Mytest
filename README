@@ -23,7 +23,7 @@ step4-Creating a repository on GitHub by the same name.Once this is created, we 
        
 where https://github.com/user_name/Mytest.git is the url of the newly created repository on github.
 
-step5-Pulling files from GitHub to our local repository: in order to do this we use the command-
+step5-Pulling files from the master branch of our GitHub repository to our local repository: in order to do this we use the command-
      Mytest>> git pull origin master.(its the first thing that u must do before u start doing ur work)
                                                      0R
 step5- Pushing files in local repository to GitHub repository-follow the following steps
@@ -33,7 +33,7 @@ step5- Pushing files in local repository to GitHub repository-follow the followi
               Once all the files are added, we can commit it. This means that we have finalized what additions and/or changes have to be made and they are now ready to be uploaded to our repository.
               Use the command :Mytest>> git commit -m "some_message"
 
-step6-Pushing files in local repository to GitHub repository:
+step6-Pushing files in local repository to the master branch of the GitHub repository:
       Mytest>> git push origin master ( its the last thing to do before u end ur days work)
       Enter the login credentials [user_name and password] .
 
